@@ -1,0 +1,20 @@
+.text-contact{
+    font-family: "Karla", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF!important;
+}
+.social a img {
+    height: 64px;
+    width: 64px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.contact-form {
+    text-align: center!important;
+    color: #FFFFFF;
+}
+.margin{
+    margin-left: -15px;
+}

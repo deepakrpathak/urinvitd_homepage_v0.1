@@ -1,0 +1,19 @@
+.host {
+    height: 300px;
+    border-top: 1px solid #e0e0e0;
+
+}
+.host .image{
+    padding-top: 2em;
+}
+.host .image img{
+    max-width: 70%;
+    max-height: 70%;
+    *box-shadow: 3px 3px 1px mediumpurple;
+}
+.host-one img {
+    float: right;
+}
+.host-two img {
+    float: left;
+}
