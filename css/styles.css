@@ -6740,8 +6740,8 @@ button.close {
     transition: margin 0.3s;
 }
 .js-wrapper-aside {
-    margin-left: -520px;
-    margin-right: 520px;
+    margin-left: -320px;
+    margin-right: 320px;
 }
 .navbar {
     -webkit-transition: all 0.3s;
@@ -6769,8 +6769,8 @@ button.close {
 .sidebar {
     position: fixed;
     top: 0;
-    right: -520px;
-    width: 520px;
+    right: -320px;
+    width: 320px;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -7417,14 +7417,14 @@ body {
  * Testimonials
  */
 .review__icon {
-    margin-top: 80px;
+    *margin-top: 80px;
     text-align: center;
     font-size: 28px;
     color: #9a9a9a;
 }
 .review__icon + .heading {
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .review__item {
     margin-bottom: 40px;
@@ -7996,6 +7996,7 @@ div.event-list {
     z-index: 1;
     color: white;
     cursor: pointer;
+    color: black;
 }
 .flip .card .back {
     background: teal;
@@ -8019,7 +8020,7 @@ div.event-list {
     padding-left: 1px;
     padding-right: 1px;
 }
-.rsvp{
+/*.rsvp{
     background-color: #f4511e;
 }
 .gifts{
@@ -8036,7 +8037,7 @@ div.event-list {
 }
 .music{
     background-color: #6d4c41;
-}
+}*/
 /*flip card end*/
 /* background slideshow*/
 #action {
@@ -8070,7 +8071,7 @@ div.event-list {
     height: 200px;
 }
 .quote-rotator blockquote {
-    background: #e1f5fe;
+    *background: #e1f5fe;
     border-left: 10px solid #01579b;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -8164,4 +8165,7 @@ div.event-list {
     background-image: url("../img/comingsoon.jpg");
     width:100%;
     height: 100%;
+}
+#testimonials {
+    max-height: 300px;
 }
